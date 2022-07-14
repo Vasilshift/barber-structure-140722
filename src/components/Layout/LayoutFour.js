@@ -1,6 +1,6 @@
 //import { Fragment } from "react";
 //import Lookbook from "../../pages/home/lookbook";
-import { HeaderOne } from "../Header";
+//import { HeaderOne } from "../Header";
 //import { FooterTwo } from "../Footer";
 import { Container, Row, Col } from "react-bootstrap";
 //import Link from "next/link";
@@ -9,7 +9,7 @@ import {Parallax} from "react-parallax";
 
 const LayoutFour = ( ) => {
   return (
-      <HeaderOne />
+      // <HeaderOne />
 
     <div className={"lookbook-content-wrapper"}>
       <Parallax
