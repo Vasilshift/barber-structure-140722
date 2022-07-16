@@ -1,23 +1,28 @@
-//import logo from './logo.svg';
-import './App.css';
+import React from "react";
+//import './App.css';
+//import { BrowserRouter, Route, Switch } from "react-router-dom";
 //import Lookbook from "./pages/home/lookbook";
+//import {LayoutFour} from "./components/Layout";
+//import {Navbar} from "react-bootstrap";
+//import Navbar from "./components/Navbar";
+import Header from "./components/Header/Header";
 import {LayoutFour} from "./components/Layout";
-
+//import HeaderOne from "./components/Header/HeaderOne";
 function App() {
   return (
-      <div>
+      <>
+        {/*<BrowserRouter>*/}
+            <Header />
+            <LayoutFour></LayoutFour>
+        {/*    <Switch>*/}
+        {/*        <Route>*/}
 
-          <LayoutFour>
-              {/* lookbook content */}
-              {/*<LookbookContent spaceBottomClass="space-mb--50" />*/}
-              {/* shop info */}
-              {/*<ShopInfo />*/}
+        {/*        </Route>*/}
+        {/*    </Switch>*/}
+        {/*</BrowserRouter>*/}
 
 
-          </LayoutFour>
-
-
-      </div>
+      </>
   );
 }
 

@@ -1,0 +1,93 @@
+
+.hero .main-nav {
+    /*background: #e1ece9;*/
+    font-size: large;
+    /*height: 16vh;*/
+    /*padding: 0 30px;*/
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*.hero .main-nav .a-logo {*/
+/*    position: relative;*/
+/*}*/
+
+.hero .main-nav span {
+    cursor: pointer;
+    color: #beb9b9;
+    display: none;
+}
+
+
+
+/*@media screen and (max-width: 900px) {*/
+/*    .hero .main-nav span {*/
+/*        display: block;*/
+/*    }*/
+/*    .hero .main-nav .menu.myhidden {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .hero .main-nav {*/
+/*        !*background: #e1ece9;*!*/
+/*        !*font-size: xx-large;*!*/
+/*        !*height: 18vh;*!*/
+/*        !*padding: 0 30px;*!*/
+/*        display: flex;*/
+/*        justify-content: flex-end;*/
+/*        align-items: center;*/
+/*    }*/
+
+/*    li {*/
+/*        padding: 10px;*/
+/*    }*/
+
+/*    ul {*/
+/*        margin: 0;*/
+/*        padding: 0;*/
+/*        overflow: hidden;*/
+/*        background-color: #f1f1f1;*/
+/*        width: 100px;*/
+/*    }*/
+/*}*/
+
+ul {
+    list-style-type: none;
+    position: fixed;
+    /*top: 0;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    overflow: hidden;
+    background-color: #f1f1f1;
+    /*width: 100%;*/
+    z-index: 1000;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #505050;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+.cont {
+    height: 8vh;
+}
+
+.lookbook-content-wrapper {
+    height: 100vh;
+}
+
+
+
+

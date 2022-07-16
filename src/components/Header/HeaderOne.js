@@ -236,4 +236,4 @@
 //   };
 // };
 //
-// export default connect(mapStateToProps)(HeaderOne);
+// //export default HeaderOne;
